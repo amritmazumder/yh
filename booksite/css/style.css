@@ -1,0 +1,246 @@
+html, body {
+	margin: 0;
+	padding: 0;
+
+}
+
+.page {
+	width: 1280px;
+	height: 800px;
+	background: #ffce00;
+	/*background: url('../img/booksite-01.png') no-repeat;*/
+	background-size: cover;
+}
+
+.big {
+	font-size: 100px;
+	padding-top: 180px;
+	height: 525px;
+	background: none;
+	line-height: 110px;
+	letter-spacing: 2px;
+}
+
+.title {
+	font-family: "ff-meta-web-pro",sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.centered {
+	width: 100%;
+	position: absolute;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.secret {
+	position: absolute;
+	opacity: 0;
+}
+
+.physical {
+	width: 530px;
+	height: 85px;
+	background: none;
+	display: block;
+	position: absolute;
+	top: 190px;
+	left: 170px;
+}
+
+.physical:hover {
+	border-bottom: 5px solid black;
+}
+
+.content {
+	width: 85%;
+	margin: 0 auto;
+}
+
+.message {
+	font-size: 22px;
+	padding-top: 30px;
+}
+
+.nav-home {
+	background: white;
+	height: 30px;
+	width: 30px;
+	border-radius: 15px;
+	position: absolute;
+	left: 45px;
+	top: 65px;
+}
+
+.nav-home:hover {
+	opacity: 1;
+	border: 2px solid white;
+}
+
+.history-button {
+	width: 170px;
+	height: 65px;
+	position: absolute;
+	background: white;
+	border-radius: 20px;
+	opacity: 0;
+	top: 375px;
+	right: 10px;
+}
+
+.history-button:hover {
+	opacity: 1;
+}
+
+.next-button {
+	background: white;
+	height: 90px;
+	width: 90px;
+	position: absolute;
+	border-radius: 45px;
+	top: 365px;
+	right: 15px;
+	opacity: 0;
+}
+
+.next-button:hover {
+	opacity: 1;
+}
+
+
+.next-button-special {
+	background: white;
+	height: 90px;
+	width: 90px;
+	position: absolute;
+	border-radius: 45px;
+	top: 365px;
+	right: 130px;
+	opacity: 0;
+}
+
+.next-button-special:hover {
+	opacity: 1;
+}
+
+.prev-button {
+	background: white;
+	height: 90px;
+	width: 90px;
+	position: absolute;
+	border-radius: 45px;
+	top: 365px;
+	left: 30px;
+	opacity: 0;
+}
+
+.prev-button:hover {
+	opacity: 1;
+}
+
+.date {
+	font-family: courier;
+	position: absolute;
+	font-size: 30px;
+	letter-spacing: 0px;
+}
+
+.spam-date {
+	margin-top: 150px;
+}
+
+.banner-date {
+	top: 300px;
+	right: 300px;
+}
+
+.ad {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+.ad .center {
+	position: relative;
+	margin: 0 auto;
+	width: 475px;
+	background: red;
+}
+
+.desc {
+	font-family: courier;
+	font-size: 20px;
+	text-transform: none;
+	letter-spacing: 0;
+	line-height: 23px;
+	position: absolute;
+}
+
+.banner-desc {
+	top: 430px;
+	left: 600px;
+	width: 400px;
+}
+
+.popup {
+	width: 50px;
+	height: 50px;
+	background: white;
+	border-radius: 25px;
+	position: absolute;
+	opacity: 0;
+}
+
+.popup:hover {
+	opacity: 1;
+	cursor: pointer;
+}
+
+.popup-one {
+	top: 645px;
+	left: 335px;
+}
+
+.popup-two {
+	top: 213px;
+	left: 675px;
+}
+
+.popup-three {
+	top: 125px;
+	right: 318px;
+}
+
+.popup-four {
+	top: 460px;
+	right: 200px;
+}
+
+.hidden {
+	display: none;
+}
+
+.popad {
+	position: fixed;
+	width: 0px;
+	height: 0px;
+	border-radius: 10px;
+}
+
+.ad1 {
+	background: red;
+}
+
+.ad2 {
+	background: yellow;
+}
+
+.ad3 {
+	background: blue;
+}
+
+.ad4 {
+	background: green;
+}
