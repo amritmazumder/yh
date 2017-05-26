@@ -1,0 +1,990 @@
+/* Global Styles */
+/* ============================================================================================== */
+
+body {
+	background: #ffffff;
+}
+
+
+
+/* Font Included (For Educational Purposes only) */
+/* ============================================================================================== */
+
+@font-face {
+  font-family: 'circular';
+  src:  url('font/CircularStd-Medium_gdi.woff') format('woff');
+}
+
+
+/* Navigation Related: Header & Footer */
+/* ============================================================================================== */
+.nav-header, .top-nav-clear {
+	height: 100px;
+	padding: 0px 0px 0px 0px;
+}
+
+.wrapper {
+
+}
+
+.nav-header {
+	background: #ffffff;
+}
+
+.nav-header {
+	position: fixed;
+	top: 0;
+	z-index: 9999;
+}
+
+.nav-header .wrapper div {
+	float: left;
+}
+
+.nav-header .nav-logo {
+	padding: 5px 60px 10px 40px;
+}
+
+.nav-logo img {
+	padding: 20px;
+	background: none;
+	width: 100%;
+}
+
+.nav-header .wrapper .nav-links {
+	padding: 50px 0px 40px 0px;
+	font-family: "franklin-gothic-urw",sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	float: right;
+	color: #000000;
+
+}
+
+.nav-header .wrapper a {
+	color: #000000;
+}
+
+.nav-header .nav-links div {
+	margin-left: 5%;
+	width: 20%;
+	text-align: center;	
+}
+
+.home-header-pattern {
+	height: 20px;
+
+}
+
+.home-header-pattern img{
+	width: 100%;
+}
+
+.nav-footer {
+	background: #000000;
+	float: left;
+}
+
+.nav-footer .wrapper .footer-logo,.footer-links {
+	float: left;
+}
+
+.footer-links-col {
+	float: left;
+	padding: 10px 10px 50px 10px;
+}
+
+.footer-logo img{
+	width: 100%;
+}
+
+.footer-logo {
+	padding: 50px 20px 0px 0px; 
+}
+
+.footer-links {
+	padding: 50px 20px 50px 20px;
+}
+
+.footer-links-title {
+	text-transform: uppercase;
+	color: #ffce00;
+	font-family: "franklin-gothic-urw",sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	padding: 0px 0px 5px 0px;
+}
+
+.footer-links-link {
+	font-family: "franklin-gothic-urw",sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 0.8em;
+	padding: 20px 0px 5px 0px;
+	text-transform: uppercase;
+}
+
+.footer-links-link a {
+	color: #ffffff;
+}
+
+.footer-links a:active {
+	color: #ffce00;
+
+}
+
+.footer-links-link a:hover {
+	color: #ffce00;
+}
+
+.footer-links-link span {
+	padding: 20px 0px 5px 0px;
+	border-bottom: 2px solid #ffce00;
+}
+
+.nav-footer .wrapper .row {
+	float: left;
+}
+
+.cmp-header {
+	background-color: black;
+}
+
+.cmp-header .wrapper {
+	background: black; 
+}
+
+.cmp-header .wrapper a {
+	color: white;
+}
+
+.cmp-header .wrapper .nav-links .active {
+	color: #ffce00;
+}
+
+.active .cmp {
+	border-bottom: 2px solid #ffce00;
+}
+
+.cmp-header .nav-logo {
+	padding: 5px 60px 10px 40px;
+}
+
+.cmp-header .nav-logo img {
+	padding: 20px;
+}
+
+.org-header {
+	background-color: #ffce00;
+}
+
+.org-header .wrapper {
+	background: #ffce00; 
+}
+
+.org-header .wrapper a {
+	color: #000000;
+}
+
+.org-header .wrapper .nav-links .active {
+	color: #000000;
+}
+
+.org-header .nav-logo {
+	padding: 5px 60px 10px 40px;
+}
+
+.active .org {
+	border-bottom: 2px solid #000000;
+}
+
+.about-header {
+	background-color: #ffffff;
+}
+
+.about-header .wrapper {
+	background: #ffffff; 
+}
+
+.about-header .wrapper a {
+	color: #000000;
+}
+
+.about-header .wrapper .nav-links .active {
+	color: #000000;
+}
+
+.active .about {
+	border-bottom: 2px solid #ffce00;
+}
+
+.about-header .nav-logo {
+	padding: 5px 60px 10px 40px;
+}
+
+.store-header .nav-logo {
+	padding: 5px 60px 10px 40px;
+}
+
+.active .cmp, .active .org, .active .about {
+	padding-bottom: 10px;
+	font-family: "franklin-gothic-urw",sans-serif;
+	font-style: normal;
+	font-weight: 500;
+}
+
+
+.nav-links div:hover {
+	padding-bottom: 10px;
+	border-bottom: 2px solid #1c1c1c;
+}
+
+/* UI Related: Buttons, Labels, Titles etc */
+/* ============================================================================================== */
+.section-title {
+	font-family: "franklin-gothic-urw",sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 150px 0px 30px 0px;
+	color: #000000;
+	letter-spacing: 1px;
+	font-size: 1.5em;
+}
+
+.button-yellow {
+	width: 50%;
+	background: #ffce00;
+	text-align: center;
+	font-family: "franklin-gothic-urw",sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1.5em;
+	padding: 20px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.button-black {
+	width: 70%;
+	background: #000000;
+	text-align: center;
+	font-family: "franklin-gothic-urw",sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1.5em;
+	padding: 20px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+/* Reusable Units */
+/* ============================================================================================== */
+
+.central {
+	margin: 0 auto;
+}
+
+.set-item {
+	float: left;
+}
+
+/* Home Page Related */
+/* ============================================================================================== */
+
+.point {
+	background: none;
+
+}
+
+.holder {
+	background: none;
+	width: 23%;
+}
+
+.holder img{
+	width: 100%;
+}
+
+.intro-callout {
+	font-family: 'circular',"franklin-gothic-urw",sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	text-align: center;
+	font-size: 2.5em;
+	line-height: 1.3em;
+	color: #000000;
+	margin: 0 auto;
+	padding: 100px 0px 100px 0px;
+}
+
+
+.block-cmp {
+	overflow: auto;
+	padding: 20px;
+	background: #ffce00;
+	margin: 20px;
+	border-radius: 5px;
+}
+
+.block-cmp .block-cmp-meta {
+	float: left;
+	padding: 0px 20px 0px 0px;
+}
+
+.block-cmp .block-cmp-content {
+	float: left;
+}
+
+.cmp-badge {
+	width: 100%;
+
+}
+
+.cmp-badge img {
+	width: 100%;
+}
+
+.cmp-title {
+	width: 100%;
+	font-family: 'circular',"franklin-gothic-urw",sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	padding: 20px 0px 30px 0px;
+	border-bottom: 2px solid black;
+	font-size: 1.5em;
+	line-height: 1.2em;
+	color: #000000;
+}
+
+.cmp-team {
+	padding: 10px 0px 10px 0px;
+	float: left;
+}
+
+.cmp-team .avatar {
+	float: left;
+	margin: 0px 10px 0px 0px;
+	width: 13%;
+}
+
+.cmp-team .avatar img {
+	width: 100%;
+}
+
+.cmp-link {
+	float: left;
+	font-family: "franklin-gothic-urw",sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	text-transform: uppercase;
+	font-size: 0.8em;
+	letter-spacing: 1px;
+	padding: 10px 0px 5px 0px;
+	border-bottom: 2px solid black;
+	color: #000000;
+}
+
+.cmp-link:hover {
+	border-bottom: 2px solid #ffffff;
+}
+
+.block-cmp-content {
+	background: white;
+}
+
+.block-cmp-content .spacer {
+	padding: 20px 20px 20px 20px;
+	width: auto;
+
+}
+
+.cmp-project {
+	padding: 20px 0px 20px 0px;
+	border-bottom: 1px solid #ffce00;
+	float: left;
+}
+
+.project-badge {
+	float: left;
+	width: 15%;
+}
+
+.project-badge img {
+	width: 100%;
+	padding: 0px 20px 20px 20px;
+}
+
+.project-content{
+	float: left;
+	padding: 0px 0px 0px 20px;
+}
+
+.project-title {
+	padding: 0px 0px 15px 0px;
+	font-family: "franklin-gothic-urw",sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.5em;
+	color: #000000;
+}
+
+.project-title a {
+	color: #000000;
+}
+
+.project-title a:hover {
+	text-decoration: underline;
+}
+
+.project-desc {
+	padding: 0px 50px 0px 0px;
+	font-family: 'circular',"runda",sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 0.9em;
+	line-height: 1.4em;
+}
+
+.set-image {
+	padding: 20px;
+
+}
+
+.set-image img {
+	width: 100%;
+}
+
+.set-title {
+	text-align: center;
+	font-family: "franklin-gothic-urw",sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1.4em;
+	padding: 10px 0px 20px 0px;
+	color: #000000;
+}
+
+.set-desc {
+	text-align: center;
+	font-family: 'circular',"runda",sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.4em;
+	font-size: 0.9em;
+	padding: 0px 30px 0px 30px;
+}
+
+
+.set-action-button {
+	padding: 20px 0px 20px 0px;
+}
+
+.set-action-button a {
+	color: #000000;
+}
+
+.set-action-button a:visited {
+	color: #000000;
+}
+
+.set-action-button .button-yellow{
+	border-top: 2px solid #ffce00;
+}
+.set-action-button .button-yellow:hover {
+	border-top: 2px solid #000000;
+}
+
+/* Campaign Page Related */
+/* ============================================================================================== */
+.big-graphic {
+	position: relative;
+}
+
+.display {
+	height: auto;
+}
+
+.display .cmp-project{
+	border: none;
+}
+
+.surv-display .project-title {
+	color: #ffffff;
+
+}
+
+.surv-display .cmp-title {
+	border-bottom: 2px solid white;
+	color: #ffffff;
+}
+
+.surv-display .project-desc {
+	color: #ffffff;
+}
+
+.big-graphic img {
+	width: 90%;
+}
+
+.nn-display .big-graphic img{
+	width: 90%;
+}
+
+.surv-display {
+	background: #000000;
+}
+
+.oad-display {
+	background: #ffce00;
+}
+
+.oad-display .project-desc {
+	color: #000000;
+}
+
+.nn-display {
+	background: #ffffff;
+}
+
+.project-display {
+	position: absolute;
+	height: 500px;
+	top: 0;
+	right: 0;
+	padding: 20px 10px 0px 10px;
+}
+
+.project-display .project-badge {
+	width: 10%;
+	
+}
+
+.project-display .project-badge img {
+	width: 100%;
+	padding: 0;
+}
+
+.fl {
+	position: absolute;
+	height: 100px;
+	top: 0;
+	left: 12.5%;
+}
+
+
+.nn-display{
+	position: relative;
+}
+
+
+/* Org Page related */
+/* ============================================================================================== */
+
+.for-org {
+	background: #ffce00;
+	overflow: auto;
+}
+
+.for-org .block-cmp-meta {
+	padding: 0;
+}
+
+.for-org .set-item {
+	padding: 10px;
+}
+
+.for-org .block-cmp {
+	background: #ffffff;
+} 
+
+.for-org .section-title {
+	padding: 75px 0px 30px 0px;
+	float: left;
+}
+
+.for-org .recruit-list {
+	float: left;
+	padding-top: 100px;
+}
+
+.recruit-list .button-black {
+	width: 100%;
+	padding: 10px;
+	font-size: 0.8em;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 900;
+	background: #ffce00;
+	border: 2px solid #000000;
+	color: #000000;
+}
+
+.recruit-badge, .recruit-copy, .recruit-action {
+	float: left;
+}
+
+.recruit-list .recruit-item {
+	float: left;
+	border-top: 2px solid black;
+	padding: 0px 0px 10px 0px;
+}
+
+
+
+.recruit-list .recruit-badge {
+	width: 10%;
+}
+
+.recruit-list .recruit-badge img {
+	width: 100%;
+	padding: 12px
+}
+
+.recruit-list .recruit-copy {
+	font-family: "franklin-gothic-urw",sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.2em;
+	padding: 40px 0px 0px 30px;
+	color: #000000;
+}
+
+.recruit-list .recruit-action {
+	padding: 30px 30px 0px 30px;
+	float: right;
+}
+
+.recruit-copy span {
+	padding: 20px 0px 5px 0px;
+	border-bottom: 2px solid #000000;
+} 
+
+.recruit-list .top-spacer {
+	width: 100%;
+	height: 20px;
+	position: relative;
+	float: left;
+}
+
+.recruit-list .top-spacer img {
+	position: absolute;
+	top: -10px;
+	right:30px;
+	width: 60px;
+}
+
+.recruit-item:nth-child(2) {
+	padding-top: 30px;
+}
+
+.button-black:hover {
+	background-color: #ffffff;
+	border: 2px solid white;
+}
+
+
+.for-org .set-item .set-action-button .button-black {
+	border: none;
+	color: #ffffff;
+	border-top: 2px solid #000000;
+}
+
+
+.for-org .set-item .set-action-button .button-black:hover {
+	border: none;
+	border-top: 2px solid #ffffff;
+	background: #000000;
+
+}
+
+/* About Page related */
+/* ============================================================================================== */
+
+
+p {
+	font-family: 'circular',"runda",sans-serif;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.obj-section .three-set {
+	overflow: auto;
+}
+
+.obj-section {
+	background: #ffce00;
+}
+
+.val-section {
+	background: #000000;
+}
+
+.about-desc {
+	padding: 10px
+}
+
+.hat-section {
+	padding-bottom: 100px;
+}
+
+.hat-desc {
+	padding: 20px 10px 0px 10px;
+	font-size: 1.3em;
+	color: #000000;
+	float: left;
+}
+
+.hat-desc a {
+	color: #000000;
+	padding-bottom: 1px;
+	border-bottom: 2px solid #ffce00;
+}
+
+.obj-section {
+	padding-bottom: 100px;
+}
+
+.obj-section .obj-item {
+	padding: 30px 30px 30px 30px;
+}
+
+.obj-section .obj-item .obj-title {
+	text-align: center;
+	font-family: "franklin-gothic-urw",sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1.5em;
+	padding: 0px 0px 30px 0px;
+	color: #000000;
+}
+
+
+.obj-section .obj-item p {
+	color: black;
+}
+
+
+.val-section .section-title {
+	color: white;
+}
+
+.val-section .val-title {
+	color: #ffce00;
+	font-family: "franklin-gothic-urw",sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 1.3em;
+	padding: 0px 0px 30px 0px;
+}
+
+.val-left , .val-right {
+	padding: 0px 0px 90px 0px;
+}
+
+
+.val-desc {
+	color: white;
+}
+
+
+.hat-graphic {
+	float: left;
+	background: none;
+	width: 100%;
+}
+
+.hat-graphic img {
+	width: 100%;
+	padding: 60px 60px 10px 60px;
+}
+
+.hat-section {
+	overflow: auto;
+}
+
+.hat-label {
+	color: #000000;
+	font-family: 'circular',"franklin-gothic-urw",sans-serif;
+	font-style: normal;
+	text-align: center;
+	float: left;
+	width: 100%;
+	
+}
+
+/* ============================================================================================== */
+
+/* Responsive Styles ========== Don't touch this till you need to */
+/* Reusable column setup */
+.col {
+    border:0px solid rgba(0,0,0,0);
+    float:left;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    -moz-background-clip:padding-box !important;
+    -webkit-background-clip:padding-box !important;
+    background-clip:padding-box !important;
+}
+
+
+
+    /* 1. 2 Column Grid 0px - 339px 
+    ----------------------------------------------------------------------------- 
+    
+    Span 1:    50.0%
+    Span 2:    100%
+    
+    ----------------------------------------------------------------------------- */
+
+    @media screen and (min-width: 0px) and (max-width: 339px) {
+        
+        .col {
+            margin-left:0%;
+        	padding:0 0%;
+        }
+        
+        .row .col:first-child {
+            margin-left:0;
+        }
+        
+        
+        /*
+        Add your semantic classnames in alongside their corresponding spans here. e.g.
+        
+        .span_3,
+        .my_semantic_class_name {
+            ...
+        }
+        */
+        
+        .span_1 {
+            width:50.0%;
+        }
+        .span_2 {
+            margin-left:0;
+            width:100%;
+        }
+    }
+
+    /* 2. 6 Column Grid 340px - 759px 
+    ----------------------------------------------------------------------------- 
+    
+    Span 1:    16.6666666667%
+    Span 2:    33.3333333333%
+    Span 3:    50.0%
+    Span 4:    66.6666666667%
+    Span 5:    83.3333333333%
+    Span 6:    100%
+    
+    ----------------------------------------------------------------------------- */
+
+    @media screen and (min-width: 340px) and (max-width: 759px) {
+        
+        .col {
+            margin-left:0%;
+        	padding:0 0%;
+        }
+        
+        .row .col:first-child {
+            margin-left:0;
+        }
+        
+        
+        
+        .span_1 {
+            width:16.6666666667%;
+        }
+        .span_2 {
+            width:33.3333333333%;
+        }
+        .span_3 {
+            width:50.0%;
+        }
+        .span_4 {
+            width:66.6666666667%;
+        }
+        .span_5 {
+            width:83.3333333333%;
+        }
+        .span_6 {
+            margin-left:0;
+            width:100%;
+        }
+    }
+
+    /* 3. 12 Column Grid 760px - Infinity 
+    ----------------------------------------------------------------------------- 
+    
+    Span 1:    8.33333333333%
+    Span 2:    16.6666666667%
+    Span 3:    25.0%
+    Span 4:    33.3333333333%
+    Span 5:    41.6666666667%
+    Span 6:    50.0%
+    Span 7:    58.3333333333%
+    Span 8:    66.6666666667%
+    Span 9:    75.0%
+    Span 10:    83.3333333333%
+    Span 11:    91.6666666667%
+    Span 12:    100%
+    
+    ----------------------------------------------------------------------------- */
+
+    @media screen and (min-width: 760px) {
+        
+        .col {
+            margin-left:0%;
+        	padding:0 0%;
+        }
+        
+        .row .col:first-child {
+            margin-left:0;
+        }
+        
+        
+        
+        .span_1 {
+            width:8.33333333333%;
+        }
+        .span_2 {
+            width:16.6666666667%;
+        }
+        .span_3, .nav-logo, .quarter, .footer-logo{
+            width:25.0%;
+        }
+        .span_4,.for-home .block-cmp-meta, .third, .footer-links-col {
+            width:33.3333333333%;
+        }
+        .span_5 {
+            width:41.6666666667%;
+        }
+        .span_6, .half {
+            width:50.0%;
+        }
+        .span_7 {
+            width:58.3333333333%;
+        }
+        .span_8, .intro-callout, .block-cmp-content, .nav-links {
+            width:66.6666666667%;
+        }
+        .span_9, .inset, .footer-links, .two-third {
+            width:75.0%;
+        }
+        .span_10, .project-content {
+            width:83.3333333333%;
+        }
+        .span_11, .wrapper {
+            width:91.6666666667%;
+        }
+        .span_12, .nav-footer, .nav-header, .home-header-pattern, .splash, .section-title, .cmp-project, .cmp-team, .block-cmp, .three-set, .row{
+            margin-left:0;
+            width:100%;
+        }
+    }
