@@ -1,0 +1,574 @@
+body {
+	background: #ffce00;
+}
+
+.page {
+	width: 80%;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+
+.section-header {
+	width: 100%;
+	float: left;
+	padding: 20px 0px 20px 0px;
+}
+
+.faq-icon {
+	width: 8%;
+	padding: 5px;
+	float: left;
+}
+
+.faq-icon img {
+	width: 100%;
+}
+
+.section-title {
+	text-transform: uppercase;
+	width: 80%;
+	float: left;
+	padding: 30px 0px 10px 10px;
+
+	font-family: "franklin-gothic-urw",sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	letter-spacing: 0.05em;
+	font-size: 1.5em;
+}
+
+.row {
+	width: 100%;
+}
+
+.section {
+	float: left;
+	width: 100%;
+	padding-bottom: 70px;
+}
+
+.three-set {
+	float: left;
+	width: 100%;
+	clear: both;
+}
+
+.three-set .set-item {
+	float: left;
+	width: 33.33%;
+	background: none
+}
+
+.item-title {
+	font-family: "franklin-gothic-urw",sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	width: 100%;
+}
+
+.item-graphic {
+	width: 100%;
+	float: left;
+	padding: 0px;
+}
+
+.item-graphic img {
+	width: 100%;
+	
+}
+
+.section .row {
+	float: left;
+}
+
+.column-central-narrow {
+	width: 50%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.column-central-wide {
+	width: 75%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.column-central-narrow img {
+	width: 100%;
+}
+
+.central-desc {
+	font-family: "ff-tisa-web-pro",serif;
+	font-style: normal;
+	font-weight: 400;
+	text-align: center;
+	line-height: 1.5em;
+	padding: 50px 0px 50px 0px;
+}
+
+.subheader {
+	width: 100%;
+	float: left;
+	text-align: center;
+	padding: 50px 0px 50px 0px;
+
+	font-family: "franklin-gothic-urw",sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 2em;
+}
+
+
+.item-caption {
+	text-align: center;
+	font-family: "franklin-gothic-urw",sans-serif;
+	font-style: normal;
+	font-weight: 700;
+}
+
+.event-caption {
+	font-family: "ff-tisa-web-pro",serif;
+	font-style: italic;
+	font-weight: 700;
+}
+
+.event-description {
+	font-family: "ff-tisa-web-pro",serif;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.date {
+	font-family: "franklin-gothic-urw",sans-serif;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.doc-title {
+	font-family: "franklin-gothic-urw",sans-serif;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.doc-icon img {
+	width: 100%;
+}
+
+.debate-title {
+	font-family: "franklin-gothic-urw",sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.debate-quote {
+	font-family: "ff-tisa-web-pro",serif;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.author-name {
+	font-family: "ff-tisa-web-pro",serif;
+	font-style: normal;
+	font-weight: 700;
+}
+
+.author-position {
+	font-family: "franklin-gothic-urw",sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.small-section-header {
+	font-family: "franklin-gothic-urw",sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.disc-item .disc-title {
+	font-family: "franklin-gothic-urw",sans-serif;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.disc-item .disc-source {
+	font-family: "franklin-gothic-urw",sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+a, a:visited {
+	color: black;
+}
+
+.emphasis {
+	font-family: "ff-tisa-web-pro",sans-serif;
+	font-style: italic;
+	font-weight: 300;
+
+	border-bottom: 1px solid white;
+}
+
+/* Case Opening ——————————————————————————————————————————————————————————————————————*/
+
+.splash_graphic {
+	width: 100%;
+	overflow: hidden;
+}
+
+.splash_graphic img {
+	width: 100%;
+}
+
+/* Case Basics ——————————————————————————————————————————————————————————————————————*/
+
+.basics {
+	background: black;
+}
+
+.basics .section-title {
+	color: white;
+}
+
+.basics .section-header {
+	border-bottom: 2px solid white;
+}
+
+.basics .subheader {
+	color: white;
+}
+
+.basics .central-desc {
+	color: white;
+}
+
+.basics .item-title {
+	color: white;
+	font-size: 1.6em;
+	line-height: 1.5em;
+	background: none;
+	text-align: center;
+	padding: 0px;
+	float: left;
+	padding: 0px 40px 0px 40px;
+	height: 130px;
+}
+
+.basics .item-graphic {
+	padding: 50px;
+}
+
+.basics .section {
+	border-bottom: 1px solid white;
+}
+
+.basics .button {
+	text-align: center;
+	color: white;
+	width: 50%;
+	float: left;
+	margin-bottom: 70px;
+	text-transform: uppercase;
+
+	font-family: "franklin-gothic-urw",sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 0.8em;
+	letter-spacing: 0.2em;
+}
+
+.basics .button .button-clicked {
+	background: #ffce00;
+	color: black;
+	padding: 20px;
+	border-radius: 10px;
+	margin: 0px 5px 0px 5px;
+	border: 1px solid #ffce00;
+}
+
+.basics .button .button-unclicked {
+	background: black;
+	color: white;
+	padding: 20px;
+	border-radius: 10px;
+	border: 1px solid white;
+	margin: 0px 5px 0px 5px;
+}	
+
+
+.hide {
+	display: none;
+}
+
+.show {
+	display: block;
+}
+
+/* Case Players ——————————————————————————————————————————————————————————————————————*/
+
+.players .section-header {
+	border-bottom: 2px solid black;
+}
+
+.players .item-graphic {
+	padding-bottom: 30px;
+}
+
+.players .column-central-wide{
+	padding: 10% 0px 0px 0px;
+
+}
+
+.players .column-central-wide .image-container {
+	width: 50%;
+	margin: 0 auto;
+
+}
+
+.players .column-central-wide img {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.players .central-desc {
+	font-size: 2em;
+}
+
+/* Case Timeline ——————————————————————————————————————————————————————————————————————*/
+
+.timeline {
+	background: white;
+}
+
+.timeline .section-header {
+	border-bottom: 2px solid black;
+}
+
+.timeline .artery {
+	float: left;
+	width: 10%;
+	
+	height: 100%;
+	background-color: none;
+	background-image: url("../../static/images/assets/line.svg");
+
+}
+
+.timeline .artery img {
+	height: 100%;
+}
+
+.timeline .events {
+	float: left;
+	width: 90%;
+	background: none;
+	padding: 30px 0px 30px 0px;
+}
+
+.timeline .date {
+	width: 100%;
+	float: left;
+	background: none;
+	padding: 0px 10px 20px 0px;
+}
+
+.timeline .event-caption {
+	width: 100%;
+	float: left;
+	background: none;
+	padding: 0px 0px 40px 0px;
+	font-size: 1.5em;
+}
+
+.timeline .event-description {
+	width: 50%;
+	float: left;
+	line-height: 1.4em;
+	background-color: none;
+	padding: 0px 40px 20px 0px; 
+}
+
+.timeline .event-documents {
+	width: 50%;
+	float: left;
+}
+
+.timeline .document-item {
+	width: 50%;
+	float: left;
+	padding-bottom: 20px;
+}
+
+.timeline .doc-icon {
+	float: left;
+	width: 10%;
+	background: none;
+}
+
+.timeline .doc-title {
+	float: left;
+	width: 80%;
+	background: none;
+	padding: 0px 0px 0px 8px;
+	font-size: 0.6em;
+	line-height: 1.5em;
+}
+
+/* Case Timeline ——————————————————————————————————————————————————————————————————————*/
+
+.debate {
+	background-color: black;
+}
+
+.debate .section-header {
+	border-bottom: 2px solid #ffce00;
+	color: white
+}
+
+.debate .debate-left {
+	float: left;
+	width: 50%;
+	background: #ffce00;
+}
+
+.debate .debate-right {
+	float: left;
+	width: 50%;
+	background: white;
+}
+
+.debate .debate-title {
+	color: black;
+	text-align: center;
+	font-size: 1.5em;
+	padding: 30px 0px 30px 0px;
+}
+
+.debate .debate-quote {
+	width: 100%;
+	float: left;
+	padding: 20px 30px 50px 30px;
+
+	line-height: 1.5em;
+	font-size: 1.5em;
+}
+
+.debate .debate-quote-author {
+	width: 100%;
+	float: left;
+}
+
+.debate .author-name {
+	width: 100%;
+	float: left;
+	font-size: 1.2em;
+	padding: 0px 30px 10px 30px;
+}
+
+.debate .author-position {
+	width: 100%;
+	float: left;
+	padding: 0px 30px 50px 30px;
+	font-size: 0.7em;
+}
+
+.debate .small-section-header {
+	color: white;
+	padding: 0px 0px 25px 0px;
+	border-bottom: 1px solid #ffce00;
+}
+
+.debate .debate-intro {
+	padding: 30px 0px 30px 0px;
+	background: none;
+	color: white;
+	font-family: "ff-tisa-web-pro",serif;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.debate .debate-intro .callout {
+	font-size: 2.5em;
+	line-height: 1.7em;
+}
+
+.debate .debate-intro .subtext {
+	padding: 80px 0px 0px 0px;
+	font-size: 1.2em;
+}
+
+.debate .debate-control {
+	background-color: none;
+	padding: 60px 0px 30px 0px;
+}
+
+.debate .debate-control .topic-pill {
+	float: left;
+	padding: 20px;
+	border: 2px solid #ffce00;
+	border-radius: 5px;
+
+	font-family: "franklin-gothic-urw",sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	color: #ffce00;
+	margin: 5px;
+}
+
+.debate .debate-control .topic-pill:first-child {
+	color: black;
+	background: #ffce00;
+	font-weight: 700;	
+}
+
+.debate .set-title {
+	color: white;
+	font-family: "ff-tisa-web-pro",serif;
+	font-style: italic;
+	font-weight: 400;
+	font-size: 1.3em;
+	padding: 25px 0px 30px 0px;
+}
+
+.debate .disc-item {
+	width: 100%;
+	float: left;
+}
+
+.debate .disc-ico {
+	width: 10%;
+	float: left;
+}
+
+.debate .disc-ico img {
+	width: 100%;
+}
+
+.debate .disc-description {
+	width: 90%;
+	float: left;
+	padding: 0px 0px 30px 20px; 
+}
+
+.debate .disc-title {
+	color: white;
+	width: 100%;
+	padding: 0px 20px 10px 0px;
+	line-height: 1.2em;
+}
+
+.debate .disc-text {
+	width: 100%;
+	
+}
+
+.debate .disc-source {
+	color: white;
+	width: 100%;
+
+	font-size: 0.6em;
+}
